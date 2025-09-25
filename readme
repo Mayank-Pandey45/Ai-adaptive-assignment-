@@ -1,0 +1,56 @@
+# AI Adaptive Assessment
+
+**AI Adaptive Assessment** is a web-based platform for conducting adaptive quizzes and assignments. The system adjusts question difficulty dynamically based on the student's performance and provides real-time analytics for teachers.
+
+---
+
+## Features
+
+- Adaptive question difficulty (1 to 5) based on student accuracy.
+- Supports multiple subjects: Maths, Physics, Chemistry, and General Knowledge.
+- Student-friendly interface with modern UI/UX.
+- Teacher dashboard for analytics:
+  - Total attempts
+  - Accuracy percentage
+  - Average time per question
+- Lightweight SQLite database for easy setup.
+
+---
+
+## Technologies Used
+
+- Python 3.x
+- Flask (Web framework)
+- SQLAlchemy (ORM for SQLite)
+- HTML/CSS/JS for frontend
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/username/AI-Adaptive-Assessment.git
+cd AI-Adaptive-Assessment
+
+
+
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+
+
+pip install -r requirements.txt
+
+python app.py
+
+http://127.0.0.1:5000/
+AI-Adaptive-Assessment/
+│
+├─ app.py             # Main application file
+├─ data.db            # SQLite database (auto-generated)
+├─ requirements.txt   # Python dependencies
+├─ README.md          # Project documentation
+└─ .gitignore         # Ignored files for Git
